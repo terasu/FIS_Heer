@@ -6,6 +6,10 @@
     <string name="action_settings" >Settings
     </string>
     <string name="hello_world" >Hello world!
-    </string>
+    </string><string name="Inbetriebnahme">Inbetriebnahme
+    </string><string name="anleitung">Anleitung FIS Heer</string>
+    <string name="anleitungse240">Anleitung SE235</string>
+    <string name="fehlerfis">Fehlerbehebung Fis Heer</string>
+    <string name="fehlerse235">Fehlerbehebung SE235</string><string name="fehlerbehebung">Fehlerbehebung</string>
 
 </resources>
