@@ -33,6 +33,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/anleitungse240"
+                android:onClick="seitese235anleitung"
                 android:id="@+id/button2" android:layout_alignBottom="@+id/button"
                 android:layout_alignParentRight="true" android:textSize="15dp"/>
         <Button

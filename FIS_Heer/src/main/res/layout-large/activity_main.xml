@@ -25,6 +25,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/anleitungse240"
                 android:id="@+id/button2"
+                android:onClick="seitese235anleitung"
                 android:textSize="15dp"
                 android:layout_below="@+id/textView" android:layout_alignRight="@+id/imageView2"/>
         <Button
