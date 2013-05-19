@@ -9,25 +9,32 @@
     tools:context=".MainActivity" android:background="#FFFFFF">
 
 
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Inbetriebnahme"
+            android:id="@+id/textView"
+            android:layout_marginTop="11dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20dp" android:textStyle="bold" android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
     <RelativeLayout
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_centerHorizontal="true">
+            android:layout_height="fill_parent" android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true" android:layout_marginTop="10dp">
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/anleitung"
                 android:id="@+id/button"
                 android:textSize="15dp"
-                android:layout_alignTop="@+id/button2" android:layout_alignParentLeft="true"
-                android:layout_alignRight="@+id/button3"/>
+                android:layout_alignParentTop="true" android:layout_alignParentLeft="true"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/anleitungse240"
-                android:id="@+id/button2"
-                android:textSize="15dp" android:layout_above="@+id/textView2" android:layout_alignRight="@+id/button4"
-                android:layout_toRightOf="@+id/imageView3"/>
+                android:id="@+id/button2" android:layout_alignBottom="@+id/button"
+                android:layout_alignParentRight="true" android:textSize="15dp"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -35,48 +42,39 @@
                 android:id="@+id/button3"
                 android:textSize="15dp"
                 android:layout_alignTop="@+id/button4" android:layout_alignParentLeft="true"
-                android:layout_toLeftOf="@+id/imageView3"/>
+                android:layout_alignRight="@+id/button"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/fehlerse235"
                 android:id="@+id/button4"
-                android:textSize="15dp"
-                android:layout_centerVertical="true" android:layout_alignParentRight="true"
-                android:layout_toRightOf="@+id/imageView3"/>
+                android:textSize="15dp" android:layout_below="@+id/textView2" android:layout_alignLeft="@+id/button2"
+                android:layout_marginTop="13dp" android:layout_alignParentRight="true"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/fehlerbehebung"
-                android:id="@+id/textView2"
-                android:textStyle="bold" android:textSize="25dp" android:layout_above="@+id/button3"
-                android:layout_toLeftOf="@+id/imageView2"/>
+                android:id="@+id/textView2" android:layout_below="@+id/button" android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" android:textStyle="bold" android:textSize="20dp"/>
         <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView"
                 android:src="@drawable/fubat122"
                 android:contentDescription="FUBat12"
-                android:layout_alignBottom="@+id/imageView2" android:layout_alignParentLeft="true"/>
+                android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"/>
         <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView2"
                 android:src="@drawable/swissarmedforce"
                 android:layout_alignParentBottom="true" android:layout_alignParentRight="true"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/Inbetriebnahme"
-                android:id="@+id/textView"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textSize="25dp" android:textStyle="bold" android:layout_above="@+id/button"
-                android:layout_alignRight="@+id/textView2"/>
         <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView3" android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" android:src="@drawable/logo"/>
+                android:id="@+id/imageView3"
+                android:src="@drawable/logo" android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"/>
     </RelativeLayout>
 </RelativeLayout>
