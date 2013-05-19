@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="Inbetriebnahme">Messa</string>
+    <string name="action_settings">impostazioni</string>
+    <string name="anleitung">Istruzioni FIS Heer</string>
+    <string name="anleitungse240">Istruzion SE235</string>
+    <string name="app_name">FIS Heer</string>
+    <string name="fehlerbehebung">Patrimonio di sollevamento non corretto</string>
+    <string name="fehlerfis">Patrimonio di sollevamento non corretto FIS Heer</string>
+    <string name="fehlerse235">Patrimonio di sollevamento non corretto SE235</string>
+    <string name="hello_world">ciao mondo</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="Inbetriebnahme">mise en service</string>
+    <string name="action_settings">réglages</string>
+    <string name="anleitung">directives FIS Heer</string>
+    <string name="anleitungse240">directives SE235</string>
+    <string name="app_name">FIS Heer</string>
+    <string name="fehlerbehebung">Patrimoine de levage incorrect</string>
+    <string name="fehlerfis">Patrimoine de levage incorrect FIS Heer</string>
+    <string name="fehlerse235">Patrimoine de levage incorrect SE235</string>
+    <string name="hello_world">Bonjour tout le monde</string>
+
+</resources>

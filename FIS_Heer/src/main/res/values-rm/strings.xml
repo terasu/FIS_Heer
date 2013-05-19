@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="Inbetriebnahme">entschaiver</string>
+    <string name="action_settings">Settings</string>
+    <string name="anleitung">entschaiver FIS Heer</string>
+    <string name="anleitungse240">entschaiver SE235</string>
+    <string name="app_name">FIS Heer</string>
+    <string name="fehlerbehebung">sbagl</string>
+    <string name="fehlerfis">sbagl Fis Heer</string>
+    <string name="fehlerse235">sbagl SE235</string>
+    <string name="hello_world">Hallo Welt</string>
+
+</resources>
