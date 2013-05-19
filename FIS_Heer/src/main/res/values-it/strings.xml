@@ -8,6 +8,6 @@
     <string name="fehlerbehebung">Patrimonio di sollevamento non corretto</string>
     <string name="fehlerfis">Patrimonio di sollevamento non corretto FIS Heer</string>
     <string name="fehlerse235">Patrimonio di sollevamento non corretto SE235</string>
-    <string name="hello_world">ciao mondo</string>
+    <string name="hello_world">ciao mondo</string><string name="se235anleitung">Se 235 Anleitung</string>
 
 </resources>

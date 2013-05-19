@@ -1,7 +1,9 @@
 package com.armee.fis_heer;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
+import android.view.View;
 import android.view.Menu;
 
 
@@ -14,7 +16,10 @@ public class MainActivity extends Activity {
 
 
     }
+    public void seitese235anleitung(View view){
+        startActivity(new Intent("com.armee.fis_heer.Se235anleitung"));
 
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

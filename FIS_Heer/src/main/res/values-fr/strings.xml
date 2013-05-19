@@ -8,6 +8,6 @@
     <string name="fehlerbehebung">Patrimoine de levage incorrect</string>
     <string name="fehlerfis">Patrimoine de levage incorrect FIS Heer</string>
     <string name="fehlerse235">Patrimoine de levage incorrect SE235</string>
-    <string name="hello_world">Bonjour tout le monde</string>
+    <string name="hello_world">Bonjour tout le monde</string><string name="se235anleitung">Se 235 Anleitung</string>
 
 </resources>

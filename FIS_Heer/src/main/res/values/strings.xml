@@ -11,6 +11,6 @@
     <string name="anleitungse240">Anleitung SE235</string>
     <string name="fehlerfis">Fehlerbehebung Fis Heer</string>
     <string name="fehlerse235">Fehlerbehebung SE235</string>
-    <string name="fehlerbehebung">Fehlerbehebung</string>
+    <string name="fehlerbehebung">Fehlerbehebung</string><string name="se235anleitung">Se 235 Anleitung</string>
 
 </resources>
