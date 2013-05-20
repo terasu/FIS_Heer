@@ -25,6 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/anleitung"
+                android:onClick="seitefisheer"
                 android:id="@+id/button" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
                 android:layout_marginTop="10dp" android:textSize="25dp"
                 android:layout_alignRight="@+id/button3"/>
@@ -40,6 +41,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/fehlerfis"
                 android:id="@+id/button3"
+                android:onClick="seitefehlerbehebse235"
                 android:textSize="25dp"
                 android:layout_alignTop="@+id/button4"
                 android:layout_alignBottom="@+id/button4" android:layout_toLeftOf="@+id/textView2"
@@ -49,6 +51,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/fehlerse235"
                 android:id="@+id/button4"
+                android:onClick="seitefehlerbehebse235"
                 android:textSize="25dp" android:layout_below="@+id/textView2"
                 android:layout_marginTop="13dp" android:layout_alignParentRight="true"
                 android:layout_toRightOf="@+id/textView2"/>

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FIS_Heer.iml" filepath="$PROJECT_DIR$/FIS_Heer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FIS_Heer-FIS_Heer.iml" filepath="$PROJECT_DIR$/FIS_Heer-FIS_Heer.iml" />
       <module fileurl="file://$PROJECT_DIR$/FIS_Heer/src/main/main.iml" filepath="$PROJECT_DIR$/FIS_Heer/src/main/main.iml" />
     </modules>
   </component>

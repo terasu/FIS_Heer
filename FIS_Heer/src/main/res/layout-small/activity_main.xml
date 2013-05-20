@@ -25,6 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/anleitung"
+                android:onClick="seitefisheer"
                 android:id="@+id/button" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
                 android:layout_marginTop="10dp" android:textSize="15dp"
                 />
@@ -41,12 +42,14 @@
                 android:text="@string/fehlerfis"
                 android:id="@+id/button3"
                 android:textSize="15dp"
+                android:onClick="seitefehlerbehebse235"
                 android:layout_alignTop="@+id/button4" android:layout_alignParentLeft="true"
                 android:layout_alignRight="@+id/button"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/fehlerse235"
+                android:onClick="seitefehlerbehebse235"
                 android:id="@+id/button4"
                 android:textSize="15dp" android:layout_below="@+id/textView2" android:layout_alignLeft="@+id/button2"
                 android:layout_marginTop="13dp" android:layout_alignParentRight="true"/>
