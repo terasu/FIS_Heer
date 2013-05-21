@@ -78,7 +78,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView3"
-                android:src="@drawable/logo" android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"/>
+                android:src="@drawable/logo"
+                android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceSmall" android:text="@string/intern"
+                  android:id="@+id/textView3"
+                  android:textSize="12dp" android:textAlignment="center"
+                  android:textStyle="bold"
+                  android:layout_above="@+id/imageView3" android:layout_centerHorizontal="true"/>
     </RelativeLayout>
 </RelativeLayout>

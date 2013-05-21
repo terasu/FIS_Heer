@@ -8,6 +8,6 @@
     <string name="fehlerbehebung">sbagl</string>
     <string name="fehlerfis">sbagl Fis Heer</string>
     <string name="fehlerse235">sbagl SE235</string>
-    <string name="hello_world">Hallo Welt</string><string name="se235anleitung">Se 235 Anleitung</string><string name="fisheeranleitungtext">FIS Heer Anleitung</string><string name="fehlerbehebfisheer">Fehlebehebung Fis Heer</string><string name="fehlerbehebungse235">Fehlerbehebung SE 235</string>
+    <string name="hello_world">Hallo Welt</string><string name="se235anleitung">Se 235 Anleitung</string><string name="fisheeranleitungtext">FIS Heer Anleitung</string><string name="fehlerbehebfisheer">Fehlebehebung Fis Heer</string><string name="fehlerbehebungse235">Fehlerbehebung SE 235</string><string name="intern">Intern</string><string name="inbetriebnahmese235regl">Einschalten</string>
 
 </resources>
