@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+        >
+<RelativeLayout
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
@@ -16,6 +19,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" android:layout_below="@+id/textView"
             >
+
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -105,14 +109,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="NCS"
+                android:text="NCS (Nur für den NCS)"
                 android:id="@+id/textView12"
                 android:textStyle="bold" android:layout_below="@+id/imageView2" android:layout_centerHorizontal="true"
                 android:layout_marginTop="11dp"/>
         <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView3" android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" android:src="@drawable/ncs"/>
+                android:id="@+id/imageView3"
+                android:src="@drawable/ncs"
+                android:layout_below="@+id/textView12" android:layout_alignLeft="@+id/imageView"/>
+
+
     </RelativeLayout>
+
 </RelativeLayout>
+</ScrollView>
