@@ -8,6 +8,6 @@
     <string name="fehlerbehebung">Patrimoine de levage incorrect</string>
     <string name="fehlerfis">Patrimoine de levage incorrect FIS Heer</string>
     <string name="fehlerse235">Patrimoine de levage incorrect SE235</string>
-    <string name="hello_world">Bonjour tout le monde</string><string name="se235anleitung">Se 235 Anleitung</string><string name="fisheeranleitungtext">FIS Heer Anleitung</string><string name="fehlerbehebfisheer">Fehlebehebung Fis Heer</string><string name="fehlerbehebungse235">Fehlerbehebung SE 235</string><string name="intern">Intern</string><string name="inbetriebnahmese235regl">Einschalten</string>
+    <string name="hello_world">Bonjour tout le monde</string><string name="se235anleitung">Se 235 Anleitung</string><string name="fisheeranleitungtext">FIS Heer Anleitung</string><string name="fehlerbehebfisheer">Fehlebehebung Fis Heer</string><string name="fehlerbehebungse235">Fehlerbehebung SE 235</string><string name="intern">Intern</string><string name="inbetriebnahmese235regl">Einschalten</string><string name="se235_anleitung_main">SE 235 Anleitung</string><string name="se235_programieren">SE 235 Programieren</string><string name="se235_syncronisieren">SE 235 Syncronisieren</string><string name="se235_sync">Se 235 synchronisieren</string><string name="se235sync_text">Der NCS startet die Synchronisation beim SE-235 folgendermassen:</string><string name="fehlermain_leer">Leer</string>
 
 </resources>

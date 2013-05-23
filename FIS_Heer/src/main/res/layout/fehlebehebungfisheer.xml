@@ -2,16 +2,67 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="wrap_content" android:minHeight="@dimen/activity_vertical_max">
 
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/fehlerbehebfisheer"
-            android:id="@+id/textView" android:layout_gravity="center"/>
-</LinearLayout>
+            android:id="@+id/textView" android:layout_gravity="center"
+            android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fehlermain_leer"
+            android:id="@+id/button" android:layout_below="@+id/textView"
+            android:layout_marginTop="10dp" android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true" android:onClick="fail"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fehlermain_leer"
+            android:id="@+id/button2" android:layout_below="@+id/button" android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" android:onClick="fail"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fehlermain_leer"
+            android:id="@+id/button3" android:layout_below="@+id/button2" android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true" android:onClick="fail"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fehlermain_leer"
+            android:id="@+id/button4" android:layout_below="@+id/button3" android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true" android:onClick="fail"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fehlermain_leer"
+            android:id="@+id/button5" android:layout_below="@+id/button4" android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true" android:onClick="fail"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fehlermain_leer"
+            android:id="@+id/button6" android:layout_below="@+id/button5" android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true" android:onClick="fail"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fehlermain_leer"
+            android:id="@+id/button7" android:layout_below="@+id/button6" android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true" android:onClick="fail"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fehlermain_leer"
+            android:id="@+id/button8" android:layout_below="@+id/button7" android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true" android:onClick="fail"/>
+</RelativeLayout>
 </ScrollView>

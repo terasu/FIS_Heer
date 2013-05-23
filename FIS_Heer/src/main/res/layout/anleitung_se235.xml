@@ -18,6 +18,8 @@
     <RelativeLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" android:layout_below="@+id/textView"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_alignParentTop="false" android:layout_alignWithParentIfMissing="false"
             >
 
         <TextView
@@ -25,8 +27,9 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="@string/inbetriebnahmese235regl"
-                android:id="@+id/textView2" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
-                android:layout_marginTop="12dp" android:textStyle="bold"/>
+                android:id="@+id/textView2"
+                android:textStyle="bold" android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/imageView"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -98,28 +101,31 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView"
-                android:layout_marginTop="11dp" android:src="@drawable/laden1" android:layout_below="@+id/textView10"
+                android:layout_marginTop="8dp" android:src="@drawable/laden1" android:layout_below="@+id/textView10"
                 android:layout_alignRight="@+id/textView10"/>
         <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView2" android:layout_below="@+id/imageView"
-                android:layout_centerHorizontal="true" android:layout_marginTop="11dp" android:src="@drawable/laden2"/>
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/laden2"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="NCS (Nur für den NCS)"
                 android:id="@+id/textView12"
-                android:textStyle="bold" android:layout_below="@+id/imageView2" android:layout_centerHorizontal="true"
-                android:layout_marginTop="11dp"/>
+                android:textStyle="bold" android:layout_below="@+id/imageView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"/>
         <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView3"
                 android:src="@drawable/ncs"
-                android:layout_below="@+id/textView12" android:layout_alignLeft="@+id/imageView"/>
-
+                android:layout_below="@+id/textView12"
+                android:layout_alignLeft="@+id/imageView"/>
 
     </RelativeLayout>
 

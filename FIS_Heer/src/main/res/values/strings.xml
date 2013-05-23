@@ -11,6 +11,15 @@
     <string name="anleitungse240">Anleitung SE235</string>
     <string name="fehlerfis">Fehlerbehebung Fis Heer</string>
     <string name="fehlerse235">Fehlerbehebung SE235</string>
-    <string name="fehlerbehebung">Fehlerbehebung</string><string name="se235anleitung">Se 235 Anleitung</string><string name="fisheeranleitungtext">FIS Heer Anleitung</string><string name="fehlerbehebfisheer">Fehlebehebung Fis Heer</string><string name="fehlerbehebungse235">Fehlerbehebung SE 235</string><string name="intern">Intern</string><string name="inbetriebnahmese235regl">Einschalten</string>
+    <string name="fehlerbehebung">Fehlerbehebung</string>
+    <string name="se235anleitung">Se 235 Anleitung</string>
+    <string name="fisheeranleitungtext">FIS Heer Anleitung</string>
+    <string name="fehlerbehebfisheer">Fehlebehebung Fis Heer</string>
+    <string name="fehlerbehebungse235">Fehlerbehebung SE 235</string>
+    <string name="intern">Intern</string>
+    <string name="inbetriebnahmese235regl">Einschalten</string>
+    <string name="se235_anleitung_main">SE 235 Anleitung</string>
+    <string name="se235_programieren">SE 235 Programieren</string>
+    <string name="se235_syncronisieren">SE 235 Synchronisieren</string><string name="se235_sync">Se 235 synchronisieren</string><string name="se235sync_text">Der NCS startet die Synchronisation beim SE-235 folgendermassen:</string><string name="fehlermain_leer">Leer</string>
 
 </resources>

@@ -27,7 +27,7 @@
                 android:text="@string/anleitungse240"
                 android:id="@+id/button2"
                 android:textSize="15dp"
-                android:onClick="seitese235anleitung"
+                android:onClick="seitese235anleitungmain"
                 android:layout_below="@+id/textView" android:layout_alignRight="@+id/imageView2"/>
         <Button
                 android:layout_width="wrap_content"

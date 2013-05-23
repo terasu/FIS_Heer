@@ -50,10 +50,37 @@
             </intent-filter>
         </activity>
         <activity
-                android:name=".Fehlerbehebungse235"
+            android:name=".Fehlerbehebungse235"
+            android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="com.armee.fis_heer.Fehlerbehebungse235" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity
+                android:name=".Se235anleitungmain"
                 android:label="@string/app_name">
             <intent-filter>
-                <action android:name="com.armee.fis_heer.Fehlerbehebungse235" />
+                <action android:name="com.armee.fis_heer.Se235anleitungmain" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".Se235sync"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.armee.fis_heer.Se235sync" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".Fail"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.armee.fis_heer.Fail" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

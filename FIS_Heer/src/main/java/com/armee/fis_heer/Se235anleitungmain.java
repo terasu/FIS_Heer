@@ -7,16 +7,20 @@ import android.view.Menu;
 import android.view.View;
 
 /**
- * Created by Gion-martin on 20.05.13.
+ * Created by Gion-martin on 23.05.13.
  */
-public class Fehlerbehebungfisheer extends Activity {
-
+public class Se235anleitungmain extends Activity {
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fehlebehebungfisheer);
+        setContentView(R.layout.anleitung_se235_main);
     }
-    public void fail(View view){
-        startActivity(new Intent("com.armee.fis_heer.Fail"));
+    public void seitese235anleitung(View view){
+        startActivity(new Intent("com.armee.fis_heer.Se235anleitung"));
+
+    }
+    public void se235sync(View view){
+        startActivity(new Intent("com.armee.fis_heer.Se235sync"));
 
     }
     @Override
@@ -25,4 +29,4 @@ public class Fehlerbehebungfisheer extends Activity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
-}
+    }

@@ -1,23 +1,17 @@
 package com.armee.fis_heer;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.View;
 
 /**
- * Created by Gion-martin on 20.05.13.
+ * Created by Gion-martin on 23.05.13.
  */
-public class Fehlerbehebungfisheer extends Activity {
-
+public class Se235sync extends Activity {
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fehlebehebungfisheer);
-    }
-    public void fail(View view){
-        startActivity(new Intent("com.armee.fis_heer.Fail"));
-
+        setContentView(R.layout.se235sync);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

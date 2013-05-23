@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/se235_anleitung_main"
+            android:id="@+id/textView" android:layout_gravity="center" android:textSize="30dp"
+            android:textStyle="bold" android:layout_marginTop="15dp"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/se235_programieren"
+            android:id="@+id/button" android:layout_marginTop="10dp" android:onClick="seitese235anleitung"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/se235_syncronisieren"
+            android:id="@+id/button2" android:layout_marginTop="10dp"
+            android:onClick="se235sync"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" android:layout_gravity="center" android:src="@drawable/se235front"
+            android:layout_marginTop="50dp"/>
+</LinearLayout>
