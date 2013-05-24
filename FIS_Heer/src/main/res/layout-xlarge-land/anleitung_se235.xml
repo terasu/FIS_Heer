@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+        >
+<RelativeLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/se235anleitung"
+            android:id="@+id/textView" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" android:textSize="25dp"/>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_below="@+id/textView"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_alignParentTop="false" android:layout_alignWithParentIfMissing="false"
+            >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/inbetriebnahmese235regl"
+                android:id="@+id/textView2"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true" android:layout_alignRight="@+id/textView4"
+                android:textSize="20dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="1. Alle Kabel von den Stecker A und B enfernen."
+                android:id="@+id/textView3"
+                android:layout_below="@+id/textView2" android:layout_centerHorizontal="true"
+                android:layout_marginTop="17dp" android:textSize="18dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="2. Schalter D auf 0"
+                android:id="@+id/textView4"
+                android:layout_below="@+id/textView3" android:layout_alignLeft="@+id/textView3"
+                android:textSize="18dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="3. Funktionsschalter E je Situation auf 1"
+                android:id="@+id/textView5"
+                android:layout_below="@+id/textView4" android:layout_alignLeft="@+id/textView4"
+                android:textSize="18dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="4. Kanalwahlschalter G auf 1"
+                android:id="@+id/textView6"
+                android:layout_below="@+id/textView5" android:layout_alignLeft="@+id/textView5"
+                android:textSize="18dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="5. Hauptschalter F auf kleine Sendeleistung. (Mikrodispoo: kleine Sendeleistung = 0.5Watt) Testprogramm läuft bis  ID-----"
+                android:id="@+id/textView7"
+                android:layout_below="@+id/textView6" android:layout_alignLeft="@+id/textView6"
+                android:textSize="18dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="6. Seriennummer des Fk Gt eintippen. (ID-Nummer entspricht der Seriennummer)"
+                android:id="@+id/textView8"
+                android:layout_below="@+id/textView7" android:layout_alignLeft="@+id/textView7"
+                android:layout_alignRight="@+id/textView3" android:textSize="18dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="7. ENTR   BASE KEY? Mit ENTR bestätigen"
+                android:id="@+id/textView9"
+                android:layout_below="@+id/textView8" android:layout_alignLeft="@+id/textView8"
+                android:textSize="18dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="SUBSCR N? Weiter machen mit, mit Fill-Gun FG-235 Laden."
+                android:id="@+id/textView10"
+                android:layout_below="@+id/textView9" android:layout_alignLeft="@+id/textView9"
+                android:layout_alignRight="@+id/textView8" android:textSize="18dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="(FIS Heer Server Starten)"
+                android:id="@+id/textView11"
+                android:textSize="15dp"
+                android:layout_alignBottom="@+id/textView2" android:layout_alignRight="@+id/textView3"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/laden1"
+                android:layout_below="@+id/textView10" android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2" android:layout_below="@+id/imageView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/laden2"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="NCS (Nur für den NCS)"
+                android:id="@+id/textView12"
+                android:textStyle="bold" android:layout_below="@+id/imageView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" android:textSize="25dp"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:src="@drawable/ncs"
+                android:layout_below="@+id/textView12"
+                android:layout_alignLeft="@+id/imageView"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+</ScrollView>

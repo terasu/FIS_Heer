@@ -28,14 +28,15 @@
                 android:onClick="seitefisheer"
                 android:id="@+id/button" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
                 android:layout_marginTop="10dp" android:textSize="15dp"
-                />
+                android:layout_alignRight="@+id/button3"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/anleitungse240"
                 android:onClick="seitese235anleitung"
                 android:id="@+id/button2" android:layout_alignBottom="@+id/button"
-                android:layout_alignParentRight="true" android:textSize="15dp"/>
+                android:layout_alignParentRight="true" android:textSize="15dp"
+                android:layout_toRightOf="@+id/textView3"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -43,16 +44,15 @@
                 android:id="@+id/button3"
                 android:textSize="15dp"
                 android:onClick="seitefehlerbehebse235"
-                android:layout_alignTop="@+id/button4" android:layout_alignParentLeft="true"
-                android:layout_alignRight="@+id/button"/>
+                android:layout_below="@+id/textView2" android:layout_alignParentLeft="true"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/fehlerse235"
                 android:onClick="seitefehlerbehebse235"
                 android:id="@+id/button4"
-                android:textSize="15dp" android:layout_below="@+id/textView2" android:layout_alignLeft="@+id/button2"
-                android:layout_marginTop="13dp" android:layout_alignParentRight="true"/>
+                android:textSize="15dp"
+                android:layout_below="@+id/textView2" android:layout_alignParentRight="true"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -69,12 +69,14 @@
         <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView" android:layout_alignParentBottom="true"
-                android:layout_alignParentLeft="true" android:src="@drawable/fubat122"/>
+                android:id="@+id/imageView"
+                android:src="@drawable/fubat122" android:layout_below="@+id/button3"
+                android:layout_alignParentLeft="true"/>
         <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView2" android:layout_alignTop="@+id/imageView"
-                android:layout_alignParentRight="true" android:src="@drawable/swissarmedforce"/>
+                android:id="@+id/imageView2"
+                android:src="@drawable/swissarmedforce" android:layout_below="@+id/button4"
+                android:layout_alignParentRight="true"/>
     </RelativeLayout>
 </RelativeLayout>
