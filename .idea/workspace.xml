@@ -14,6 +14,13 @@
       </config>
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-land/about.xml">
+        <config>
+          <device>Nexus 4</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-land/activity_main.xml">
         <config>
           <device>Nexus One</device>
@@ -39,6 +46,12 @@
         <config>
           <device>Nexus 7</device>
           <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large/about.xml">
+        <config>
+          <device>5.1in WVGA</device>
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
@@ -73,6 +86,12 @@
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small/about.xml">
+        <config>
+          <device>2.7in QVGA</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small/activity_main.xml">
         <config>
           <device>2.7in QVGA</device>
@@ -88,6 +107,12 @@
       <layout url="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small/anleitung_se235_main.xml">
         <config>
           <device>2.7in QVGA</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge/about.xml">
+        <config>
+          <device>10.1in WXGA (Tablet)</device>
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
@@ -160,21 +185,24 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/a.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1368894343554" ignored="false" />
     <file path="/strings.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369482127241" ignored="false" />
-    <file path="/activity_main.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369441894258" ignored="false" />
-    <file path="/Dummy.txt" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369482356998" ignored="false" />
+    <file path="/activity_main.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369486197811" ignored="false" />
+    <file path="/Dummy.txt" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369483228315" ignored="false" />
     <file path="/Se235anleitung.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1368991346246" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369341604575" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369484455300" ignored="false" />
     <file path="/Fisheeranleitung.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369078745884" ignored="false" />
     <file path="/Fehlerbehebungfisheer.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369080063908" ignored="false" />
     <file path="/Fehlerbehebungse235.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369341304477" ignored="false" />
     <file path="/anleitung_se235.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369335222752" ignored="false" />
-    <file path="/MainActivity.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369441424430" ignored="false" />
+    <file path="/MainActivity.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369484026556" ignored="false" />
     <file path="/Se235anleitungmain.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369437500420" ignored="false" />
     <file path="/Se235sync.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369337856498" ignored="false" />
     <file path="/fail.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369341357609" ignored="false" />
     <file path="/Fail.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369341526138" ignored="false" />
     <file path="$PROJECT_DIR$/FIS_Heer/src/main/res/values-sw720dp-land/strings.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369483016912" ignored="false" />
     <file path="$PROJECT_DIR$/FIS_Heer/src/main/res/values-sw600dp/strings.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369483016914" ignored="false" />
+    <file path="/main.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369485303844" ignored="false" />
+    <file path="/About.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369484110881" ignored="false" />
+    <file path="/styles.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369486050984" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,6 +222,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -230,7 +259,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -239,32 +267,7 @@
     <favorites_list name="FIS_Heer" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout/about.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -291,22 +294,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge/anleitung_se235_main.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge-land/anleitung_se235_main.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout/fail.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large/fail.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large-land/fail.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small/fail.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small-land/fail.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge/fail.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge-land/fail.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large-land/activity_main.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large/activity_main.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout/about.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-land/about.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge/about.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge-land/about.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large/about.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large-land/about.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/java/com/armee/fis_heer/About.java" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/java/com/armee/fis_heer/Main.java" />
         <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/values-it/strings.xml" />
         <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/values-fr/strings.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout/about.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/java/com/armee/fis_heer/MainActivity.java" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/menu/main.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout/activity_main.xml" />
       </list>
     </option>
   </component>
@@ -421,6 +424,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="values-fr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FIS_Heer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FIS_Heer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -595,12 +634,12 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
-    <property name="ExportedApkPath" value="C:\Users\Gion-martin\Dropbox\Android dev\fisheer44.apk" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="ExportedApkPath" value="C:\Users\Gion-martin\Dropbox\Android dev\fisheer49.apk" />
     <property name="ExportedModule" value="main" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
@@ -833,11 +872,12 @@
       <workItem from="1369481160466" duration="210000" />
       <workItem from="1369481480723" duration="77000" />
       <workItem from="1369481570530" duration="1479000" />
+      <workItem from="1369483222862" duration="3108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48438000" />
+    <option name="totallyTimeSpent" value="51546000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -861,30 +901,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16862327" sideWeight="0.67074525" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16115262" sideWeight="0.67074525" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16862327" sideWeight="0.67074525" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16079059" sideWeight="0.67074525" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.67074525" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924242" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24809742" sideWeight="0.32935154" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924226" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14354323" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14354323" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.67074525" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Server Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -952,97 +992,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small-land/fail.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small/fail.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large-land/fail.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large/fail.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-land/fail.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout/fail.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large-land/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="65" selection-start="434" selection-end="434" vertical-scroll-proportion="0.019473081">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/drawable-hdpi/logo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/drawable-hdpi/bitchplease.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="140" selection-end="154" vertical-scroll-proportion="0.1017964">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="26" column="53" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout/activity_main.xml">
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge-land/about.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -1052,18 +1002,34 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/values-it/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="129" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.4610849">
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge/about.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/values-fr/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="129" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.4610849">
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large-land/about.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large/about.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout/about.xml">
@@ -1073,6 +1039,99 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="141" selection-end="400" vertical-scroll-proportion="0.09883721">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/java/com/armee/fis_heer/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="34" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/java/com/armee/fis_heer/About.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="39" selection-start="324" selection-end="324" vertical-scroll-proportion="0.23367697">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="4" selection-start="1521" selection-end="1521" vertical-scroll-proportion="-18.36">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/values-fr/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="4" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.4811321">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/values-it/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="4" selection-start="1530" selection-end="1530" vertical-scroll-proportion="-16.32">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/menu/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="-4.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/java/com/armee/fis_heer/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.2142039">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="45" selection-start="687" selection-end="687" vertical-scroll-proportion="0.33104238">
+          <folding>
+            <element signature="e#623#641#0" expanded="true" />
+            <element signature="e#791#809#0" expanded="true" />
+            <element signature="e#1131#1149#0" expanded="true" />
+            <element signature="e#1478#1496#0" expanded="true" />
+            <element signature="e#1832#1850#0" expanded="true" />
+            <element signature="e#2181#2199#0" expanded="true" />
+            <element signature="e#2515#2533#0" expanded="true" />
+            <element signature="e#2859#2877#0" expanded="true" />
+            <element signature="e#3189#3207#0" expanded="true" />
+            <element signature="e#3516#3534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="46" selection-start="228" selection-end="228" vertical-scroll-proportion="0.12028302">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="8" selection-start="516" selection-end="516" vertical-scroll-proportion="0.18590522">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
