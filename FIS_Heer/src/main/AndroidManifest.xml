@@ -103,7 +103,7 @@
                 android:name=".Hinweise_Senden"
                 android:label="@string/app_name">
             <intent-filter>
-                <action android:name="com.armee.fis_heer.Hinweise_senden" />
+                <action android:name="com.armee.fis_heer.Hinweise_Senden" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

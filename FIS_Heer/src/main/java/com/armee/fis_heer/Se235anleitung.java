@@ -34,7 +34,7 @@ public class Se235anleitung extends Activity {
         }
         switch(item.getItemId()) {
             case R.id.Hinweis_menu:
-                startActivity(new Intent("com.armee.fis_heer.Test"));
+                startActivity(new Intent("com.armee.fis_heer.Hinweise_Senden"));
                 break;
         }
         return false;

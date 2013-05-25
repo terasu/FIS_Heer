@@ -27,6 +27,6 @@
     <string name="about_text">Diese applikation ist nicht für die öffentlichkeit gedacht, sondern für ausbildungs und übungszwecke.</string>
     <string name="copyrigt">Copyright by Gion-Martin Pfiffner</string>
     <string name="test">test</string>
-    <string name="hinweise">hinweise</string>
+    <string name="hinweise">hinweise</string><string name="hinweis_text">Wellchen Hinweis willst du geben</string>
 
 </resources>

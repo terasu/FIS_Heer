@@ -24,6 +24,6 @@
     <string name="about_text">This application is not intended for the public, but for education, and exercise purposes.</string>
     <string name="copyrigt">Copyright by Gion-Martin Pfiffner</string>
     <string name="test">test</string>
-    <string name="hinweise">hinweise</string>
+    <string name="hinweise">hinweise</string><string name="hinweis_text">Wellchen Hinweis willst du geben</string>
 
 </resources>
