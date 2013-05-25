@@ -18,8 +18,8 @@ public class MainActivity extends Activity {
     }
     public void seitese235anleitungmain(View view){
         startActivity(new Intent("com.armee.fis_heer.Se235anleitungmain"));
-
     }
+
     public void seitefisheer(View view){
         startActivity(new Intent("com.armee.fis_heer.Fisheeranleitung"));
 

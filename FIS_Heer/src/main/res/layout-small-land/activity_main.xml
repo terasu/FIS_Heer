@@ -28,12 +28,12 @@
                 android:onClick="seitefisheer"
                 android:id="@+id/button" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
                 android:layout_marginTop="10dp" android:textSize="15dp"
-                android:layout_alignRight="@+id/button3"/>
+                android:layout_toLeftOf="@+id/textView3"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/anleitungse240"
-                android:onClick="seitese235anleitung"
+                android:onClick="seitese235anleitungmain"
                 android:id="@+id/button2" android:layout_alignBottom="@+id/button"
                 android:layout_alignParentRight="true" android:textSize="15dp"
                 android:layout_toRightOf="@+id/textView3"/>
@@ -44,7 +44,8 @@
                 android:id="@+id/button3"
                 android:textSize="15dp"
                 android:onClick="seitefehlerbehebse235"
-                android:layout_below="@+id/textView2" android:layout_alignParentLeft="true"/>
+                android:layout_below="@+id/textView2" android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/textView3"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -52,7 +53,8 @@
                 android:onClick="seitefehlerbehebse235"
                 android:id="@+id/button4"
                 android:textSize="15dp"
-                android:layout_below="@+id/textView2" android:layout_alignParentRight="true"/>
+                android:layout_below="@+id/textView2" android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/textView3"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

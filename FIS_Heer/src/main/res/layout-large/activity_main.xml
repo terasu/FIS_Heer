@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/anleitungse240"
                 android:id="@+id/button2"
-                android:onClick="seitese235anleitung"
+                android:onClick="seitese235anleitungmain"
                 android:textSize="15dp"
                 android:layout_below="@+id/textView" android:layout_alignRight="@+id/imageView2"/>
         <Button
@@ -87,6 +87,6 @@
                   android:id="@+id/textView3"
                   android:textSize="25dp" android:textAlignment="center"
                   android:textStyle="bold"
-                  android:layout_above="@+id/imageView2" android:layout_centerHorizontal="true"/>
+                  android:layout_alignTop="@+id/imageView" android:layout_centerHorizontal="true"/>
     </RelativeLayout>
 </RelativeLayout>
