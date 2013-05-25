@@ -3,7 +3,7 @@
 
     <string name="app_name" >FIS Heer
     </string>
-    <string name="action_settings" >Settings
+    <string name="action_settings" >über diese App
     </string>
     <string name="hello_world" >Hello world!
     </string><string name="Inbetriebnahme">Inbetriebnahme
@@ -20,6 +20,6 @@
     <string name="inbetriebnahmese235regl">Einschalten</string>
     <string name="se235_anleitung_main">SE 235 Anleitung</string>
     <string name="se235_programieren">SE 235 Programieren</string>
-    <string name="se235_syncronisieren">SE 235 Synchronisieren</string><string name="se235_sync">Se 235 synchronisieren</string><string name="se235sync_text">Der NCS startet die Synchronisation beim SE-235 folgendermassen:</string><string name="fehlermain_leer">Leer</string>
+    <string name="se235_syncronisieren">SE 235 Synchronisieren</string><string name="se235_sync">Se 235 synchronisieren</string><string name="se235sync_text">Der NCS startet die Synchronisation beim SE-235 folgendermassen:</string><string name="fehlermain_leer">Leer</string><string name="about_text">Diese applikation ist nicht für die öffentlichkeit gedacht, sondern für ausbildungs und übungszwecke.</string><string name="copyrigt">Copyright by Gion-Martin Pfiffner</string>
 
 </resources>
