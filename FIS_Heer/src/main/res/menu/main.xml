@@ -3,5 +3,10 @@
         android:title="@string/action_settings"
         android:orderInCategory="100"
         android:showAsAction="never"
+
             />
+    <item android:id="@+id/Hinweis_menu"
+          android:title="@string/hinweise"
+          android:orderInCategory="100"
+          android:showAsAction="never" />
 </menu>

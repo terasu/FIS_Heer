@@ -26,5 +26,7 @@
     <string name="fehlermain_leer">Leer</string>
     <string name="about_text">Diese applikation ist nicht für die öffentlichkeit gedacht, sondern für ausbildungs und übungszwecke.</string>
     <string name="copyrigt">Copyright by Gion-Martin Pfiffner</string>
+    <string name="test">test</string>
+    <string name="hinweise">hinweise</string>
 
 </resources>

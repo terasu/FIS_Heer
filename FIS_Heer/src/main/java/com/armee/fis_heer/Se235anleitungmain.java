@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 /**
@@ -29,4 +30,20 @@ public class Se235anleitungmain extends Activity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch(item.getItemId()) {
+            case R.id.action_settings:
+                startActivity(new Intent("com.armee.fis_heer.About"));
+                break;
+        }
+        switch(item.getItemId()) {
+            case R.id.Hinweis_menu:
+                startActivity(new Intent("com.armee.fis_heer.Test"));
+                break;
+        }
+        return false;
     }
+}

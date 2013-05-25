@@ -98,6 +98,16 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+
+                android:name=".Hinweise_Senden"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.armee.fis_heer.Hinweise_senden" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

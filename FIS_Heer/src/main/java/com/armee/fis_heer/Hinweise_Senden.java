@@ -5,21 +5,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 /**
- * Created by Gion-martin on 20.05.13.
+ * Created by Gion-martin on 25.05.13.
  */
-public class Fehlerbehebungse235 extends Activity {
-
+public class Hinweise_Senden extends Activity {
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fehelebehebungse235);
-    }
-    public void fail(View view){
-        startActivity(new Intent("com.armee.fis_heer.Fail"));
-
-    }
+        setContentView(R.layout.hinweise);
+}
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -35,11 +30,7 @@ public class Fehlerbehebungse235 extends Activity {
                 startActivity(new Intent("com.armee.fis_heer.About"));
                 break;
         }
-        switch(item.getItemId()) {
-            case R.id.Hinweis_menu:
-                startActivity(new Intent("com.armee.fis_heer.Test"));
-                break;
-        }
+
         return false;
-    }
+}
 }
