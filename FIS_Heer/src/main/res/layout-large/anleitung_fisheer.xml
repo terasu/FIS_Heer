@@ -165,7 +165,8 @@
             android:layout_centerHorizontal="true"
             android:textStyle="bold"
             android:onClick="seitese235anleitungmain"
-            android:layout_marginTop="5dp"/>
+            android:layout_marginTop="5dp"
+            android:clickable="true"/>
 
 </RelativeLayout>
 </ScrollView>
