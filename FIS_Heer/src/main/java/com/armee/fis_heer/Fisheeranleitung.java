@@ -15,7 +15,15 @@ public class Fisheeranleitung extends Activity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.anleitung_fisheer);
-}
+    }
+
+        public void seitese235anleitungmain(View view){
+            startActivity(new Intent("com.armee.fis_heer.Se235anleitungmain"));
+        }
+    public void fail(View view){
+        startActivity(new Intent("com.armee.fis_heer.Fail"));
+
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

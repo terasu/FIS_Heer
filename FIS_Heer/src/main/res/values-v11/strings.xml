@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="monitorkali">Monitor kalibrieren</string><string name="datenfunkkonf">Datenfunk Konf.</string><string name="datenfunktdma">6.Datenfunk und TDMA Sync</string><string name="datentrans">7.Datentransfer</string><string name="missionfile">8.Mission File laden(Server)</string><string name="knoten">9.Eigenen Knoten definieren(Server)</string><string name="replikanetz">10.Replikationsnetz konfigurieren(Server)</string><string name="gps">11.Konfiguration GPS(Server)</string><string name="keymessage">12.Key Message Aktivieren(Server)</string><string name="clientlocal">Client von Local auf Remote umschalten(Client)</string></resources>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_height="fill_parent"
+            android:background="#FFFFFF">
 <RelativeLayout
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               style="@style/AppBaseTheme"
-              android:minHeight="@dimen/activity_vertical_max"
-              android:background="#FFFFFF">
+              android:minHeight="@dimen/activity_vertical_max">
 
     <TextView
             android:layout_width="wrap_content"
@@ -31,19 +31,20 @@
             android:layout_marginTop="30dp"
             android:textSize="12dp"
             android:textStyle="bold"
-            android:layout_toLeftOf="@+id/button2"
-            android:onClick="fail"/>
+            android:onClick="fail"
+            android:layout_toLeftOf="@+id/textView"/>
 
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="5.Datenfunk Konf."
             android:id="@+id/button2"
-            android:layout_alignTop="@+id/button"
-            android:layout_centerHorizontal="true"
             android:textSize="12dp"
             android:textStyle="bold"
-            android:onClick="fail"/>
+            android:onClick="fail"
+            android:layout_alignTop="@+id/button"
+            android:layout_toLeftOf="@+id/button3"
+            android:layout_toRightOf="@+id/button"/>
 
     <Button
             android:layout_width="wrap_content"
@@ -52,9 +53,10 @@
             android:id="@+id/button3"
             android:textSize="12dp"
             android:textStyle="bold"
-            android:layout_alignTop="@+id/button2"
-            android:layout_toRightOf="@+id/button2"
-            android:onClick="fail"/>
+            android:onClick="fail"
+            android:layout_alignBaseline="@+id/button2"
+            android:layout_alignBottom="@+id/button2"
+            android:layout_alignParentRight="true"/>
 
     <Button
             android:layout_width="wrap_content"
@@ -72,10 +74,10 @@
             android:layout_below="@+id/button"
             android:layout_alignParentLeft="true"
             android:layout_marginTop="10dp"
-            android:layout_toLeftOf="@+id/button2"
             android:textStyle="bold"
             android:textSize="12dp"
-            android:onClick="fail"/>
+            android:onClick="fail"
+            android:layout_alignRight="@+id/button"/>
 
     <Button
             android:layout_width="wrap_content"

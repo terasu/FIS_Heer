@@ -29,10 +29,10 @@
             android:layout_below="@+id/textView"
             android:layout_alignParentLeft="true"
             android:layout_marginTop="30dp"
-            android:textSize="12dp"
+            android:textSize="15dp"
             android:textStyle="bold"
-            android:layout_toLeftOf="@+id/button2"
-            android:onClick="fail"/>
+            android:onClick="fail"
+            android:layout_toLeftOf="@+id/textView2"/>
 
     <Button
             android:layout_width="wrap_content"
@@ -40,29 +40,23 @@
             android:text="5.Datenfunk Konf."
             android:id="@+id/button2"
             android:layout_alignTop="@+id/button"
-            android:layout_centerHorizontal="true"
-            android:textSize="12dp"
+            android:textSize="15dp"
             android:textStyle="bold"
-            android:onClick="fail"/>
+            android:onClick="fail"
+            android:layout_toRightOf="@+id/button"
+            android:layout_alignRight="@+id/textView2"/>
 
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/datenfunktdma"
             android:id="@+id/button3"
-            android:textSize="12dp"
+            android:textSize="15dp"
             android:textStyle="bold"
+            android:onClick="fail"
             android:layout_alignTop="@+id/button2"
-            android:layout_toRightOf="@+id/button2"
-            android:onClick="fail"/>
-
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button13"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="63dp"
-            android:layout_centerHorizontal="true"/>
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/textView2"/>
 
     <Button
             android:layout_width="wrap_content"
@@ -72,10 +66,10 @@
             android:layout_below="@+id/button"
             android:layout_alignParentLeft="true"
             android:layout_marginTop="10dp"
-            android:layout_toLeftOf="@+id/button2"
             android:textStyle="bold"
-            android:textSize="12dp"
-            android:onClick="fail"/>
+            android:textSize="15dp"
+            android:onClick="fail"
+            android:layout_alignRight="@+id/button"/>
 
     <Button
             android:layout_width="wrap_content"
@@ -83,11 +77,11 @@
             android:text="@string/missionfile"
             android:id="@+id/button5"
             android:layout_alignBottom="@+id/button4"
-            android:textSize="12dp"
+            android:textSize="15dp"
             android:textStyle="bold"
             android:layout_toRightOf="@+id/button4"
-            android:layout_toLeftOf="@+id/button3"
-            android:onClick="fail"/>
+            android:onClick="fail"
+            android:layout_alignRight="@+id/textView2"/>
 
     <Button
             android:layout_width="wrap_content"
@@ -98,7 +92,7 @@
             android:layout_toRightOf="@+id/button5"
             android:layout_alignRight="@+id/button3"
             android:layout_alignTop="@+id/button5"
-            android:textSize="12dp"
+            android:textSize="15dp"
             android:textStyle="bold"
             android:onClick="fail"/>
 
@@ -111,7 +105,7 @@
             android:layout_toRightOf="@+id/button4"
             android:layout_marginTop="10dp"
             android:layout_toLeftOf="@+id/button6"
-            android:textSize="11dp"
+            android:textSize="15dp"
             android:textStyle="bold"
             android:onClick="fail"/>
 
@@ -125,7 +119,7 @@
             android:layout_toRightOf="@+id/button8"
             android:layout_alignBottom="@+id/button8"
             android:textStyle="bold"
-            android:textSize="11dp"
+            android:textSize="15dp"
             android:onClick="fail"/>
 
     <Button
@@ -133,7 +127,7 @@
             android:layout_height="wrap_content"
             android:text="@string/replikanetz"
             android:id="@+id/button7"
-            android:textSize="11dp"
+            android:textSize="15dp"
             android:textStyle="bold"
             android:layout_alignBottom="@+id/button8"
             android:layout_alignParentLeft="true"
@@ -148,7 +142,7 @@
             android:id="@+id/button10"
             android:layout_below="@+id/button8"
             android:layout_marginTop="10dp"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textStyle="bold"
             android:layout_toLeftOf="@+id/button9"
             android:layout_toRightOf="@+id/button7"

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_height="fill_parent"
+            android:fillViewport="false">
 <RelativeLayout
               android:orientation="vertical"
               android:layout_width="match_parent"
@@ -55,14 +56,6 @@
             android:layout_alignTop="@+id/button2"
             android:layout_toRightOf="@+id/button2"
             android:onClick="fail"/>
-
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button13"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="63dp"
-            android:layout_centerHorizontal="true"/>
 
     <Button
             android:layout_width="wrap_content"

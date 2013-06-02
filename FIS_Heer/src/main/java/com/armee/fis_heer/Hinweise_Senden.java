@@ -10,6 +10,8 @@ import android.view.MenuItem;
  * Created by Gion-martin on 25.05.13.
  */
 public class Hinweise_Senden extends Activity {
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
