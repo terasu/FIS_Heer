@@ -18,10 +18,10 @@
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fehlermain_leer"
+            android:text="@string/fehlermissionfileladen"
             android:id="@+id/button" android:layout_below="@+id/textView"
             android:layout_marginTop="10dp" android:layout_alignParentRight="true"
-            android:layout_alignParentLeft="true" android:onClick="fail"/>
+            android:layout_alignParentLeft="true" android:onClick="missionfileewig"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

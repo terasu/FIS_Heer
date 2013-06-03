@@ -42,6 +42,13 @@
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large-land/anleitung_fisheer.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <theme>@style/AppBaseTheme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large-land/anleitung_se235_main.xml">
         <config>
           <device>Nexus 7</device>
@@ -59,6 +66,12 @@
         <config>
           <device>Nexus 7</device>
           <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large/anleitung_fisheer.xml">
+        <config>
+          <device>Nexus 7</device>
+          <theme>@style/AppBaseTheme</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large/anleitung_se235.xml">
@@ -198,6 +211,12 @@
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout/datenfunk.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@style/AppBaseTheme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout/fail.xml">
         <config>
           <device>Nexus 4</device>
@@ -231,9 +250,9 @@
     <file path="/a.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1368894343554" ignored="false" />
     <file path="/strings.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369482127241" ignored="false" />
     <file path="/activity_main.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369486197811" ignored="false" />
-    <file path="/Dummy.txt" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1370214426869" ignored="false" />
+    <file path="/Dummy.txt" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1370288480499" ignored="false" />
     <file path="/Se235anleitung.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1368991346246" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369502739909" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1370289705679" ignored="false" />
     <file path="/Fisheeranleitung.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369078745884" ignored="false" />
     <file path="/Fehlerbehebungfisheer.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369080063908" ignored="false" />
     <file path="/Fehlerbehebungse235.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369341304477" ignored="false" />
@@ -250,8 +269,11 @@
     <file path="/Menu.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369498107154" ignored="false" />
     <file path="/Test.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369500645611" ignored="false" />
     <file path="/Hinweise_Senden.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1369501594648" ignored="false" />
-    <file path="$PROJECT_DIR$/FIS_Heer/src/main/res/values-it/strings.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1370211311146" ignored="false" />
-    <file path="$PROJECT_DIR$/FIS_Heer/src/main/res/values-v11/strings.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1370210363466" ignored="false" />
+    <file path="$PROJECT_DIR$/FIS_Heer/src/main/res/values-it/strings.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1370290747470" ignored="false" />
+    <file path="$PROJECT_DIR$/FIS_Heer/src/main/res/values-v11/strings.xml" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1370290747471" ignored="false" />
+    <file path="/Monitorkalib.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1370287527223" ignored="false" />
+    <file path="/Datenfunk.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1370287893973" ignored="false" />
+    <file path="/Fehler_missionfile.java" changelist="1c6486e1-608b-4889-928c-e51f57005e3d" time="1370289505591" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,104 +338,7 @@
     <favorites_list name="FIS_Heer" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="anleitung_fisheer.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout/anleitung_fisheer.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anleitung_fisheer.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small/anleitung_fisheer.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anleitung_fisheer.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small-land/anleitung_fisheer.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anleitung_fisheer.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge/anleitung_fisheer.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anleitung_fisheer.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge-land/anleitung_fisheer.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anleitung_fisheer.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-land/anleitung_fisheer.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anleitung_fisheer.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large/anleitung_fisheer.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anleitung_fisheer.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large-land/anleitung_fisheer.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -440,22 +365,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small/activity_main.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small-land/activity_main.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge/activity_main.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge-land/activity_main.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/values-sw600dp/strings.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/values-sw720dp-land/strings.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/java/com/armee/fis_heer/Fisheeranleitung.java" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout/anleitung_fisheer.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-land/anleitung_fisheer.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout/fehler_missionfile.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge/fehler_missionfile.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large/fehler_missionfile.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small/fehler_missionfile.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/java/com/armee/fis_heer/Fehler_missionfile.java" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout/fehlebehebungfisheer.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/java/com/armee/fis_heer/Fehlerbehebungfisheer.java" />
         <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large/anleitung_fisheer.xml" />
         <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large-land/anleitung_fisheer.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small/anleitung_fisheer.xml" />
-        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small-land/anleitung_fisheer.xml" />
         <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge/anleitung_fisheer.xml" />
         <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge-land/anleitung_fisheer.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-land/anleitung_fisheer.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout/anleitung_fisheer.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small/anleitung_fisheer.xml" />
+        <option value="$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small-land/anleitung_fisheer.xml" />
       </list>
     </option>
   </component>
@@ -1028,11 +953,13 @@
       <workItem from="1370211065160" duration="1103000" />
       <workItem from="1370212268265" duration="168000" />
       <workItem from="1370214419902" duration="163000" />
+      <workItem from="1370286833489" duration="1269000" />
+      <workItem from="1370288416011" duration="3323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68570000" />
+    <option name="totallyTimeSpent" value="73162000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1058,9 +985,10 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16862327" sideWeight="0.67074525" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16008538" sideWeight="0.67074525" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09658484" sideWeight="0.67074525" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21985058" sideWeight="0.67074525" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.67074525" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1073,10 +1001,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924226" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14194237" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14834578" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.67074525" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1147,148 +1074,172 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/values-sw600dp/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="12" selection-start="1976" selection-end="1976" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large/fehler_missionfile.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="2670" selection-end="2670" vertical-scroll-proportion="0.9152348">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/values-sw720dp-land/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="33" selection-start="1296" selection-end="1317" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout/fehelebehebungse235.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout/fehler_missionfile.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/java/com/armee/fis_heer/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="145" selection-end="170" vertical-scroll-proportion="0.116838485">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/java/com/armee/fis_heer/Fisheeranleitung.java">
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small/fehler_missionfile.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small-land/fehler_missionfile.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/java/com/armee/fis_heer/Fehler_missionfile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="5" selection-start="716" selection-end="716" vertical-scroll-proportion="0.48682705">
+        <state line="39" column="1" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.7594502">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/java/com/armee/fis_heer/Fehlerbehebungse235.java">
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="459" selection-end="560" vertical-scroll-proportion="0.25315005">
+        <state line="125" column="57" selection-start="4640" selection-end="4658" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#623#641#0" expanded="true" />
+            <element signature="e#791#809#0" expanded="true" />
+            <element signature="e#1131#1149#0" expanded="true" />
+            <element signature="e#1478#1496#0" expanded="true" />
+            <element signature="e#1832#1850#0" expanded="true" />
+            <element signature="e#2181#2199#0" expanded="true" />
+            <element signature="e#2515#2533#0" expanded="true" />
+            <element signature="e#2859#2877#0" expanded="true" />
+            <element signature="e#3189#3207#0" expanded="true" />
+            <element signature="e#3516#3534#0" expanded="true" />
+            <element signature="e#3851#3869#0" expanded="true" />
+            <element signature="e#4190#4208#0" expanded="true" />
+            <element signature="e#4535#4553#0" expanded="true" />
+            <element signature="e#4886#4904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/java/com/armee/fis_heer/Fehlerbehebungfisheer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="13" selection-start="704" selection-end="704" vertical-scroll-proportion="0.4089347">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout/activity_main.xml">
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout/fehlebehebungfisheer.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout/anleitung_fisheer.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-land/anleitung_fisheer.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="124" column="4" selection-start="4912" selection-end="4912" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout/anleitung_fisheer.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="252" column="9" selection-start="9915" selection-end="9915" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large/anleitung_fisheer.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-large-land/anleitung_fisheer.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="268" column="13" selection-start="10551" selection-end="10551" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small/anleitung_fisheer.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-small-land/anleitung_fisheer.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="260" column="35" selection-start="10276" selection-end="10276" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge/anleitung_fisheer.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="267" column="13" selection-start="10499" selection-end="10499" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FIS_Heer/src/main/res/layout-xlarge-land/anleitung_fisheer.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="267" column="13" selection-start="10500" selection-end="10500" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

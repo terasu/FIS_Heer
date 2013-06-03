@@ -5,32 +5,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 /**
- * Created by Gion-martin on 20.05.13.
+ * Created by Gion-martin on 03.06.13.
  */
-public class Fisheeranleitung extends Activity  {
-    @Override
+public class Fehler_missionfile extends Activity {
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.anleitung_fisheer);
-    }
-
-        public void seitese235anleitungmain(View view){
-            startActivity(new Intent("com.armee.fis_heer.Se235anleitungmain"));
-        }
-    public void fail(View view){
-        startActivity(new Intent("com.armee.fis_heer.Fail"));
-
-    }
-    public void datenfunkgo(View view){
-        startActivity(new Intent("com.armee.fis_heer.Datenfunk"));
-
-    }
-    public void monitor(View view){
-        startActivity(new Intent("com.armee.fis_heer.Monitorkalib"));
-
+        setContentView(R.layout.fehler_missionfile);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

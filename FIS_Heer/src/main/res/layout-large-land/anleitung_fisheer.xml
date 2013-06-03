@@ -170,5 +170,100 @@
             android:layout_marginTop="5dp"
             android:clickable="true"/>
 
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/systemreinigen"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/button10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/replikastop"
+            android:id="@+id/button11"
+            android:layout_below="@+id/textView3"
+            android:layout_toLeftOf="@+id/button12"
+            android:layout_alignParentLeft="true"
+            android:textSize="11dp"
+            android:onClick="fail"
+            android:textStyle="bold"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/missionuserlöschen"
+            android:id="@+id/button12"
+            android:layout_alignBottom="@+id/button11"
+            android:layout_alignLeft="@+id/button10"
+            android:textSize="10dp"
+            android:layout_toLeftOf="@+id/button14"
+            android:onClick="fail"
+            android:textStyle="bold"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/typesloeschen"
+            android:id="@+id/button14"
+            android:layout_alignBottom="@+id/button11"
+            android:layout_alignParentRight="true"
+            android:textSize="11dp"
+            android:layout_toRightOf="@+id/button10"
+            android:onClick="fail"
+            android:textStyle="bold"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/replikaloeschen"
+            android:id="@+id/button15"
+            android:layout_below="@+id/button11"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/button12"
+            android:textSize="11dp"
+            android:onClick="fail"
+            android:textStyle="bold"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nmaloeschen"
+            android:id="@+id/button16"
+            android:layout_alignBottom="@+id/button15"
+            android:layout_toRightOf="@+id/button15"
+            android:layout_toLeftOf="@+id/button14"
+            android:textSize="11dp"
+            android:onClick="fail"
+            android:textStyle="bold"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/funkloeschen"
+            android:id="@+id/button17"
+            android:layout_alignBottom="@+id/button16"
+            android:layout_toRightOf="@+id/button16"
+            android:layout_alignRight="@+id/button14"
+            android:textSize="11dp"
+            android:onClick="fail"
+            android:textStyle="bold"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/geraeteoff"
+            android:id="@+id/button18"
+            android:layout_below="@+id/button16"
+            android:layout_toLeftOf="@+id/button17"
+            android:layout_toRightOf="@+id/button15"
+            android:textSize="11dp"
+            android:onClick="fail"
+            android:textStyle="bold"/>
+
 </RelativeLayout>
 </ScrollView>
