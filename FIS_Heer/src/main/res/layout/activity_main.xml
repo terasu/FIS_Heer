@@ -92,13 +92,5 @@
                 android:textSize="20dp" android:textAlignment="center"
                 android:textStyle="bold" android:layout_above="@+id/imageView3" android:layout_centerHorizontal="true"/>
 
-        <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/app_anleitungse"
-                android:id="@+id/button5"
-                android:layout_centerVertical="true"
-                android:layout_toLeftOf="@+id/button4"/>
-
     </RelativeLayout>
 </RelativeLayout>
